@@ -32,7 +32,7 @@ st.markdown("""
         border: none;
     }
     </style>
-    """, unsafe_allow_stdio=True)
+    """, unsafe_allow_html=True)
 
 st.title("📄 High-Fidelity PDF to Word")
 st.write("Resume වැනි Columns සහ Tables සහිත PDF ගොනු නිවැරදිව Word බවට පත් කිරීමට මෙය භාවිතා කරන්න.")
